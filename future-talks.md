@@ -2,9 +2,18 @@
 
 Feedback welcome! Please open an issue or make a pull request.
 
-## Why you should switch to Foo open-source tool
+## Blueprint Driven Development
 
-Most people think that Baz developement is best done with Bar tool, but Foo open-source tool has an active community and is improving rapidly. At as of release 2.0, we're seeing a fully-featured, robust, reliable tool for production apps. Come hear about best practices that will save your development team hours and help them all sprout wings, and three tips that will help you hit the ground running. (Ruby, version control, agile)
+At vuzz we're using API Blueprint, a markup language for designing RESTful HTTP APIs. Instead of keeping API documentation and implementation separate, we use the API Blueprint file as a master file that changes how the API behaves on the surface. Since the Blueprint must be updated for the API to be updated, we call this workflow Blueprint Driven Development (BDD). BDD automates the process of keeping documentation and implementation synchronized.
+
+## Finding Food Pictures with Food Pictures
+We've crated a system for finding similar food pictures given an input food picture. For instance, if you send it a picture of a hamburger it'll find other pictures with various types of hamburgers. The work we did falls into three rough categories: 
+- Building and training the model
+- Encapsulating the model in a responsive service
+- Deploying the service as a microservice in the cloud
+
+## Microservices with Terraform
+In this talk I'll share how I've built up the DevOps systems that we use by vuzz. We have a lot of services, and each are run through CICD pipelines.
 
 ## Less fleshed out ideas
 
