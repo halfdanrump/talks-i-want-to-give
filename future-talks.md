@@ -17,4 +17,4 @@ In this talk I'll share how I've built up the DevOps systems that we use by vuzz
 
 ## Less fleshed out ideas
 
-- list a few ideas you're considering!
+- Training Wavenet as a denoising auto encoder to create a time strething DSP plugin
