@@ -15,6 +15,9 @@ We've crated a system for finding similar food pictures given an input food pict
 ## Microservices with Terraform
 In this talk I'll share how I've built up the DevOps systems that we use by vuzz. We have a lot of services, and each are run through CICD pipelines.
 
+## Taking Control with Terraform
+In this short talk I'll talk about how I put an entire system running on AWS under terraform management. I automated the import process and was able to put the whole system under terraform management in less than two hours. 
+
 ## Less fleshed out ideas
 
 - Training Wavenet as a denoising auto encoder to create a time strething DSP plugin
