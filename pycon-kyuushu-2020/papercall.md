@@ -1,4 +1,4 @@
-# cron + ec2 -> ECS fargate -> ECS fargate + airflow
+# From Classic Cron to Serverless Task Management (with Python)
 
 # Elevator Pitch
 If you run scripts for batch processing and use cron a lot, you should listen to this talk. I will show you how SnapDish uses Airflow to execute Python scripts in the serverless ECS Fargate platform. You will see that getting started with distributed task scheduling is much easier than you thought.
